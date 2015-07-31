@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>xp.abc</title>
+ <link href="http://blog.emiya.cc/atom.xml" rel="self"/>
+ <link href="http://blog.emiya.cc/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.emiya.cc</id>
+ <author>
+   <name>xp.abc</name>
+   <email>xp.abc@icloud.com</email>
+ </author>
+ 
+ {% for post in site.posts limit:15 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://blog.emiya.cc{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://www.kafeitu.me{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}<strong>原创文章，转载请注明：</strong>转载自：<a href='http://blog.emiya.cc{{post.url}}'>{{post.title}}</a></content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
