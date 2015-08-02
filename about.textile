@@ -6,8 +6,40 @@ layout: master
 h2. 关于我
 
 * 一个典型的攻城师、码农，崇尚自由，喜欢关注新鲜事物
-* 测试
 
+* 擅长B/S系统开发
+    使用技术、框架：Java(SS、SSH2、SSI) 、Scala(SBT、Play2)、Groovy
+    前端：Ajax(JQuery)、Html、Css
+
+* 喜欢Linux/Unix、CLT控、开源
+
+h2. 软硬环境
+
+* 操作系统：Mac OS X & Ubuntu Server
+
+* Shell：Bash & Sh
+
+* 编辑器：VIM & Textastic
+
+* IDE：Intellij Idea
+
+h2. 关于blog.emiya.cc
+
+* 以html、css、javascript、ajax、jQuery为前端技术
+
+* 以Java为后台基础
+
+* 以Maven、Ant、Sbt为辅助工具
+
+h2. 联系我
+
+* QQ：979677388
+
+* Email：xp.abc@icloud.com
+
+h2. 关于版权
+
+除特别说明外，本博客内容皆为原创，可以自由转载传播，但请署名及注明出处
 
 
 <!-- Duoshuo Comment BEGIN -->
